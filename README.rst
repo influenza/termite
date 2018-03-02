@@ -189,25 +189,4 @@ standard usage of the CSS padding property.
 TERMINFO
 ========
 
-When working on a remote system with termite's terminfo missing, an error might
-occur:
-
-::
-
-    Error opening terminal: xterm-termite
-
-To solve this issue, install the termite terminfo on your remote system.
-
-On Arch Linux:
-
-::
-
-        pacman -S termite-terminfo
-
-On other systems:
-
-
-::
-
-    wget https://raw.githubusercontent.com/thestinger/termite/master/termite.terminfo
-    tic -x termite.terminfo
+Is not a problem now that termite announces itself as 'vte-256color'
